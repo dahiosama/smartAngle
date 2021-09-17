@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,26 @@
 		B19B228526F4AD9C001746FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19B228326F4AD9C001746FB /* LaunchScreen.storyboard */; };
 		B19B229026F4AD9D001746FB /* smartAngleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B228F26F4AD9D001746FB /* smartAngleTests.swift */; };
 		B19B229B26F4AD9D001746FB /* smartAngleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B229A26F4AD9D001746FB /* smartAngleUITests.swift */; };
+		B19B22AC26F4B0EB001746FB /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22AB26F4B0EB001746FB /* ProfileVC.swift */; };
+		B19B22B826F4BA52001746FB /* ReviewViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22B626F4BA52001746FB /* ReviewViewCell.swift */; };
+		B19B22B926F4BA52001746FB /* ReviewViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19B22B726F4BA52001746FB /* ReviewViewCell.xib */; };
+		B19B22D426F4C552001746FB /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22D126F4C551001746FB /* APIRouter.swift */; };
+		B19B22D626F4C552001746FB /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22D326F4C552001746FB /* APIConstant.swift */; };
+		B19B22E726F4C56D001746FB /* WindowManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22DA26F4C56B001746FB /* WindowManger.swift */; };
+		B19B22E826F4C56D001746FB /* Languge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22DB26F4C56B001746FB /* Languge.swift */; };
+		B19B22E926F4C56D001746FB /* NetworkMange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22DC26F4C56C001746FB /* NetworkMange.swift */; };
+		B19B22EA26F4C56D001746FB /* Tost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22DD26F4C56C001746FB /* Tost.swift */; };
+		B19B22EB26F4C56D001746FB /* ArabicCVFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22DE26F4C56C001746FB /* ArabicCVFlowLayout.swift */; };
+		B19B22EC26F4C56D001746FB /* TTGSnackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22E026F4C56C001746FB /* TTGSnackbar.swift */; };
+		B19B22ED26F4C56D001746FB /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22E126F4C56C001746FB /* color.swift */; };
+		B19B22EE26F4C56D001746FB /* Indecatoer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22E226F4C56C001746FB /* Indecatoer.swift */; };
+		B19B22EF26F4C56D001746FB /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22E326F4C56C001746FB /* DataUser.swift */; };
+		B19B22F026F4C56D001746FB /* appConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22E426F4C56C001746FB /* appConstant.swift */; };
+		B19B22F126F4C56D001746FB /* Network+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22E526F4C56C001746FB /* Network+Helper.swift */; };
+		B19B22FB26F4C66B001746FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B19B22FA26F4C66B001746FB /* Alamofire */; };
+		B19B230526F4C734001746FB /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B22D226F4C552001746FB /* Network.swift */; };
+		B19B232626F4C9C4001746FB /* provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B232526F4C9C4001746FB /* provider.swift */; };
+		B19B232C26F4D07A001746FB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B19B232B26F4D07A001746FB /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +69,26 @@
 		B19B229626F4AD9D001746FB /* smartAngleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartAngleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19B229A26F4AD9D001746FB /* smartAngleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartAngleUITests.swift; sourceTree = "<group>"; };
 		B19B229C26F4AD9D001746FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19B22AB26F4B0EB001746FB /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		B19B22B626F4BA52001746FB /* ReviewViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewCell.swift; sourceTree = "<group>"; };
+		B19B22B726F4BA52001746FB /* ReviewViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewViewCell.xib; sourceTree = "<group>"; };
+		B19B22D126F4C551001746FB /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		B19B22D226F4C552001746FB /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B19B22D326F4C552001746FB /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		B19B22DA26F4C56B001746FB /* WindowManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowManger.swift; sourceTree = "<group>"; };
+		B19B22DB26F4C56B001746FB /* Languge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Languge.swift; sourceTree = "<group>"; };
+		B19B22DC26F4C56C001746FB /* NetworkMange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMange.swift; sourceTree = "<group>"; };
+		B19B22DD26F4C56C001746FB /* Tost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tost.swift; sourceTree = "<group>"; };
+		B19B22DE26F4C56C001746FB /* ArabicCVFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArabicCVFlowLayout.swift; sourceTree = "<group>"; };
+		B19B22DF26F4C56C001746FB /* TTGSnackbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGSnackbar.h; sourceTree = "<group>"; };
+		B19B22E026F4C56C001746FB /* TTGSnackbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTGSnackbar.swift; sourceTree = "<group>"; };
+		B19B22E126F4C56C001746FB /* color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		B19B22E226F4C56C001746FB /* Indecatoer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indecatoer.swift; sourceTree = "<group>"; };
+		B19B22E326F4C56C001746FB /* DataUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
+		B19B22E426F4C56C001746FB /* appConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = appConstant.swift; sourceTree = "<group>"; };
+		B19B22E526F4C56C001746FB /* Network+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+Helper.swift"; sourceTree = "<group>"; };
+		B19B22E626F4C56D001746FB /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B19B232526F4C9C4001746FB /* provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19B232C26F4D07A001746FB /* Kingfisher in Frameworks */,
+				B19B22FB26F4C66B001746FB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +143,10 @@
 			children = (
 				B19B227826F4AD9B001746FB /* AppDelegate.swift */,
 				B19B227A26F4AD9B001746FB /* SceneDelegate.swift */,
-				B19B227C26F4AD9B001746FB /* ViewController.swift */,
-				B19B227E26F4AD9B001746FB /* Main.storyboard */,
+				B19B233326F4D570001746FB /* Model */,
+				B19B234826F4D658001746FB /* Controller */,
+				B19B234726F4D63D001746FB /* View */,
+				B19B234326F4D622001746FB /* Helpers */,
 				B19B228126F4AD9C001746FB /* Assets.xcassets */,
 				B19B228326F4AD9C001746FB /* LaunchScreen.storyboard */,
 				B19B228626F4AD9C001746FB /* Info.plist */,
@@ -128,6 +172,96 @@
 			path = smartAngleUITests;
 			sourceTree = "<group>";
 		};
+		B19B22B426F4BA19001746FB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B19B22B526F4BA23001746FB /* ReviewCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B19B22B526F4BA23001746FB /* ReviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B19B22B626F4BA52001746FB /* ReviewViewCell.swift */,
+				B19B22B726F4BA52001746FB /* ReviewViewCell.xib */,
+			);
+			path = ReviewCell;
+			sourceTree = "<group>";
+		};
+		B19B233326F4D570001746FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B19B233B26F4D5AA001746FB /* Model */,
+				B19B233726F4D580001746FB /* WebServies */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B19B233726F4D580001746FB /* WebServies */ = {
+			isa = PBXGroup;
+			children = (
+				B19B22D326F4C552001746FB /* APIConstant.swift */,
+				B19B22D126F4C551001746FB /* APIRouter.swift */,
+				B19B22D226F4C552001746FB /* Network.swift */,
+			);
+			path = WebServies;
+			sourceTree = "<group>";
+		};
+		B19B233B26F4D5AA001746FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B19B232526F4C9C4001746FB /* provider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B19B234326F4D622001746FB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B19B22DC26F4C56C001746FB /* NetworkMange.swift */,
+				B19B22DD26F4C56C001746FB /* Tost.swift */,
+				B19B22DF26F4C56C001746FB /* TTGSnackbar.h */,
+				B19B22E026F4C56C001746FB /* TTGSnackbar.swift */,
+				B19B22DA26F4C56B001746FB /* WindowManger.swift */,
+				B19B22E426F4C56C001746FB /* appConstant.swift */,
+				B19B22DE26F4C56C001746FB /* ArabicCVFlowLayout.swift */,
+				B19B22E126F4C56C001746FB /* color.swift */,
+				B19B22E326F4C56C001746FB /* DataUser.swift */,
+				B19B22E226F4C56C001746FB /* Indecatoer.swift */,
+				B19B22DB26F4C56B001746FB /* Languge.swift */,
+				B19B22E626F4C56D001746FB /* Network.swift */,
+				B19B22E526F4C56C001746FB /* Network+Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B19B234726F4D63D001746FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B19B234926F4D683001746FB /* Storybored */,
+				B19B22B426F4BA19001746FB /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B19B234826F4D658001746FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B19B22AB26F4B0EB001746FB /* ProfileVC.swift */,
+				B19B227C26F4AD9B001746FB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B19B234926F4D683001746FB /* Storybored */ = {
+			isa = PBXGroup;
+			children = (
+				B19B227E26F4AD9B001746FB /* Main.storyboard */,
+			);
+			path = Storybored;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +278,10 @@
 			dependencies = (
 			);
 			name = smartAngle;
+			packageProductDependencies = (
+				B19B22FA26F4C66B001746FB /* Alamofire */,
+				B19B232B26F4D07A001746FB /* Kingfisher */,
+			);
 			productName = smartAngle;
 			productReference = B19B227526F4AD9B001746FB /* smartAngle.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +353,10 @@
 				Base,
 			);
 			mainGroup = B19B226C26F4AD9B001746FB;
+			packageReferences = (
+				B19B22F926F4C66B001746FB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B19B232A26F4D07A001746FB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B19B227626F4AD9B001746FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19B22B926F4BA52001746FB /* ReviewViewCell.xib in Resources */,
 				B19B228526F4AD9C001746FB /* LaunchScreen.storyboard in Resources */,
 				B19B228226F4AD9C001746FB /* Assets.xcassets in Resources */,
 				B19B228026F4AD9B001746FB /* Main.storyboard in Resources */,
@@ -258,9 +401,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19B22D626F4C552001746FB /* APIConstant.swift in Sources */,
+				B19B22AC26F4B0EB001746FB /* ProfileVC.swift in Sources */,
+				B19B22D426F4C552001746FB /* APIRouter.swift in Sources */,
+				B19B22ED26F4C56D001746FB /* color.swift in Sources */,
+				B19B22EA26F4C56D001746FB /* Tost.swift in Sources */,
+				B19B22B826F4BA52001746FB /* ReviewViewCell.swift in Sources */,
+				B19B22E726F4C56D001746FB /* WindowManger.swift in Sources */,
+				B19B22F026F4C56D001746FB /* appConstant.swift in Sources */,
+				B19B232626F4C9C4001746FB /* provider.swift in Sources */,
+				B19B22E826F4C56D001746FB /* Languge.swift in Sources */,
 				B19B227D26F4AD9B001746FB /* ViewController.swift in Sources */,
+				B19B22EE26F4C56D001746FB /* Indecatoer.swift in Sources */,
 				B19B227926F4AD9B001746FB /* AppDelegate.swift in Sources */,
+				B19B230526F4C734001746FB /* Network.swift in Sources */,
+				B19B22E926F4C56D001746FB /* NetworkMange.swift in Sources */,
 				B19B227B26F4AD9B001746FB /* SceneDelegate.swift in Sources */,
+				B19B22EC26F4C56D001746FB /* TTGSnackbar.swift in Sources */,
+				B19B22F126F4C56D001746FB /* Network+Helper.swift in Sources */,
+				B19B22EF26F4C56D001746FB /* DataUser.swift in Sources */,
+				B19B22EB26F4C56D001746FB /* ArabicCVFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				DEVELOPMENT_TEAM = 353VVV69RA;
 				INFOPLIST_FILE = smartAngle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +616,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				DEVELOPMENT_TEAM = 353VVV69RA;
 				INFOPLIST_FILE = smartAngle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -593,6 +753,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B19B22F926F4C66B001746FB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		B19B232A26F4D07A001746FB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B19B22FA26F4C66B001746FB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B19B22F926F4C66B001746FB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B19B232B26F4D07A001746FB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B19B232A26F4D07A001746FB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B19B226D26F4AD9B001746FB /* Project object */;
 }
