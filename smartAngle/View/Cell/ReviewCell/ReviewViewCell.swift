@@ -9,6 +9,7 @@ import UIKit
 
 class ReviewViewCell: UITableViewCell {
 
+    @IBOutlet weak var userRate: CosmosView!
     @IBOutlet weak var descrption: UILabel!
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var userName: UILabel!

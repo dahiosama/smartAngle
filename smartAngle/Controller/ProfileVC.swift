@@ -21,6 +21,7 @@ class ProfileVC: UIViewController {
     @IBOutlet weak var userLocation: UILabel!
     @IBOutlet weak var StutesView: UIView!
 
+    @IBOutlet weak var userRateView: CosmosView!
     @IBOutlet weak var userRate: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +55,10 @@ class ProfileVC: UIViewController {
         self.userName.text = self.profile?.provider?.name ?? ""
         self.userJob.text = self.profile?.provider?.userType ?? "Clener"
         self.userLocation.text =  "Gaza" // null in API
+        
+        self.userRate.text = self.profile?.provider?.rate ?? "0.0"
+        
+        self.userRateView.rating  = Double(self.profile?.provider?.rate ?? "0.0") ?? 0.0
     }
     
 
@@ -80,6 +85,7 @@ extension ProfileVC:UITableViewDelegate,UITableViewDataSource{
         // have error form API bio not found in user in reviews object That for test just
         cell.descrption.text = self.profile?.provider?.bio ?? ""
         cell.date.text = self.profile?.provider?.birthday ?? ""
+        cell.userRate.rating = Double(reviews?.rate ?? "0.0") ?? 0.0
 
         
         return cell
