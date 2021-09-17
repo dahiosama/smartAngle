@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19B227926F4AD9B001746FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B227826F4AD9B001746FB /* AppDelegate.swift */; };
+		B19B227B26F4AD9B001746FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B227A26F4AD9B001746FB /* SceneDelegate.swift */; };
+		B19B227D26F4AD9B001746FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B227C26F4AD9B001746FB /* ViewController.swift */; };
+		B19B228026F4AD9B001746FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19B227E26F4AD9B001746FB /* Main.storyboard */; };
+		B19B228226F4AD9C001746FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19B228126F4AD9C001746FB /* Assets.xcassets */; };
+		B19B228526F4AD9C001746FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19B228326F4AD9C001746FB /* LaunchScreen.storyboard */; };
+		B19B229026F4AD9D001746FB /* smartAngleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B228F26F4AD9D001746FB /* smartAngleTests.swift */; };
+		B19B229B26F4AD9D001746FB /* smartAngleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19B229A26F4AD9D001746FB /* smartAngleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19B228C26F4AD9D001746FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19B226D26F4AD9B001746FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19B227426F4AD9B001746FB;
+			remoteInfo = smartAngle;
+		};
+		B19B229726F4AD9D001746FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19B226D26F4AD9B001746FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19B227426F4AD9B001746FB;
+			remoteInfo = smartAngle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B19B227526F4AD9B001746FB /* smartAngle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartAngle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19B227826F4AD9B001746FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19B227A26F4AD9B001746FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B19B227C26F4AD9B001746FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19B227F26F4AD9B001746FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19B228126F4AD9C001746FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19B228426F4AD9C001746FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19B228626F4AD9C001746FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19B228B26F4AD9D001746FB /* smartAngleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartAngleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19B228F26F4AD9D001746FB /* smartAngleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartAngleTests.swift; sourceTree = "<group>"; };
+		B19B229126F4AD9D001746FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19B229626F4AD9D001746FB /* smartAngleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartAngleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19B229A26F4AD9D001746FB /* smartAngleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartAngleUITests.swift; sourceTree = "<group>"; };
+		B19B229C26F4AD9D001746FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19B227226F4AD9B001746FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19B228826F4AD9D001746FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19B229326F4AD9D001746FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19B226C26F4AD9B001746FB = {
+			isa = PBXGroup;
+			children = (
+				B19B227726F4AD9B001746FB /* smartAngle */,
+				B19B228E26F4AD9D001746FB /* smartAngleTests */,
+				B19B229926F4AD9D001746FB /* smartAngleUITests */,
+				B19B227626F4AD9B001746FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19B227626F4AD9B001746FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19B227526F4AD9B001746FB /* smartAngle.app */,
+				B19B228B26F4AD9D001746FB /* smartAngleTests.xctest */,
+				B19B229626F4AD9D001746FB /* smartAngleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19B227726F4AD9B001746FB /* smartAngle */ = {
+			isa = PBXGroup;
+			children = (
+				B19B227826F4AD9B001746FB /* AppDelegate.swift */,
+				B19B227A26F4AD9B001746FB /* SceneDelegate.swift */,
+				B19B227C26F4AD9B001746FB /* ViewController.swift */,
+				B19B227E26F4AD9B001746FB /* Main.storyboard */,
+				B19B228126F4AD9C001746FB /* Assets.xcassets */,
+				B19B228326F4AD9C001746FB /* LaunchScreen.storyboard */,
+				B19B228626F4AD9C001746FB /* Info.plist */,
+			);
+			path = smartAngle;
+			sourceTree = "<group>";
+		};
+		B19B228E26F4AD9D001746FB /* smartAngleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19B228F26F4AD9D001746FB /* smartAngleTests.swift */,
+				B19B229126F4AD9D001746FB /* Info.plist */,
+			);
+			path = smartAngleTests;
+			sourceTree = "<group>";
+		};
+		B19B229926F4AD9D001746FB /* smartAngleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B19B229A26F4AD9D001746FB /* smartAngleUITests.swift */,
+				B19B229C26F4AD9D001746FB /* Info.plist */,
+			);
+			path = smartAngleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19B227426F4AD9B001746FB /* smartAngle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19B229F26F4AD9D001746FB /* Build configuration list for PBXNativeTarget "smartAngle" */;
+			buildPhases = (
+				B19B227126F4AD9B001746FB /* Sources */,
+				B19B227226F4AD9B001746FB /* Frameworks */,
+				B19B227326F4AD9B001746FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartAngle;
+			productName = smartAngle;
+			productReference = B19B227526F4AD9B001746FB /* smartAngle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19B228A26F4AD9D001746FB /* smartAngleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19B22A226F4AD9D001746FB /* Build configuration list for PBXNativeTarget "smartAngleTests" */;
+			buildPhases = (
+				B19B228726F4AD9D001746FB /* Sources */,
+				B19B228826F4AD9D001746FB /* Frameworks */,
+				B19B228926F4AD9D001746FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19B228D26F4AD9D001746FB /* PBXTargetDependency */,
+			);
+			name = smartAngleTests;
+			productName = smartAngleTests;
+			productReference = B19B228B26F4AD9D001746FB /* smartAngleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B19B229526F4AD9D001746FB /* smartAngleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19B22A526F4AD9D001746FB /* Build configuration list for PBXNativeTarget "smartAngleUITests" */;
+			buildPhases = (
+				B19B229226F4AD9D001746FB /* Sources */,
+				B19B229326F4AD9D001746FB /* Frameworks */,
+				B19B229426F4AD9D001746FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19B229826F4AD9D001746FB /* PBXTargetDependency */,
+			);
+			name = smartAngleUITests;
+			productName = smartAngleUITests;
+			productReference = B19B229626F4AD9D001746FB /* smartAngleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19B226D26F4AD9B001746FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B19B227426F4AD9B001746FB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B19B228A26F4AD9D001746FB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B19B227426F4AD9B001746FB;
+					};
+					B19B229526F4AD9D001746FB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B19B227426F4AD9B001746FB;
+					};
+				};
+			};
+			buildConfigurationList = B19B227026F4AD9B001746FB /* Build configuration list for PBXProject "smartAngle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19B226C26F4AD9B001746FB;
+			productRefGroup = B19B227626F4AD9B001746FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19B227426F4AD9B001746FB /* smartAngle */,
+				B19B228A26F4AD9D001746FB /* smartAngleTests */,
+				B19B229526F4AD9D001746FB /* smartAngleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19B227326F4AD9B001746FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19B228526F4AD9C001746FB /* LaunchScreen.storyboard in Resources */,
+				B19B228226F4AD9C001746FB /* Assets.xcassets in Resources */,
+				B19B228026F4AD9B001746FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19B228926F4AD9D001746FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19B229426F4AD9D001746FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19B227126F4AD9B001746FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19B227D26F4AD9B001746FB /* ViewController.swift in Sources */,
+				B19B227926F4AD9B001746FB /* AppDelegate.swift in Sources */,
+				B19B227B26F4AD9B001746FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19B228726F4AD9D001746FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19B229026F4AD9D001746FB /* smartAngleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19B229226F4AD9D001746FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19B229B26F4AD9D001746FB /* smartAngleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19B228D26F4AD9D001746FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19B227426F4AD9B001746FB /* smartAngle */;
+			targetProxy = B19B228C26F4AD9D001746FB /* PBXContainerItemProxy */;
+		};
+		B19B229826F4AD9D001746FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19B227426F4AD9B001746FB /* smartAngle */;
+			targetProxy = B19B229726F4AD9D001746FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19B227E26F4AD9B001746FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19B227F26F4AD9B001746FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19B228326F4AD9C001746FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19B228426F4AD9C001746FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19B229D26F4AD9D001746FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19B229E26F4AD9D001746FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19B22A026F4AD9D001746FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				INFOPLIST_FILE = smartAngle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osama.smartAngle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19B22A126F4AD9D001746FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				INFOPLIST_FILE = smartAngle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osama.smartAngle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B19B22A326F4AD9D001746FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				INFOPLIST_FILE = smartAngleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osama.smartAngleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartAngle.app/smartAngle";
+			};
+			name = Debug;
+		};
+		B19B22A426F4AD9D001746FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				INFOPLIST_FILE = smartAngleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osama.smartAngleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartAngle.app/smartAngle";
+			};
+			name = Release;
+		};
+		B19B22A626F4AD9D001746FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				INFOPLIST_FILE = smartAngleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osama.smartAngleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartAngle;
+			};
+			name = Debug;
+		};
+		B19B22A726F4AD9D001746FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPH5Q6DCQM;
+				INFOPLIST_FILE = smartAngleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osama.smartAngleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartAngle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19B227026F4AD9B001746FB /* Build configuration list for PBXProject "smartAngle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19B229D26F4AD9D001746FB /* Debug */,
+				B19B229E26F4AD9D001746FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19B229F26F4AD9D001746FB /* Build configuration list for PBXNativeTarget "smartAngle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19B22A026F4AD9D001746FB /* Debug */,
+				B19B22A126F4AD9D001746FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19B22A226F4AD9D001746FB /* Build configuration list for PBXNativeTarget "smartAngleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19B22A326F4AD9D001746FB /* Debug */,
+				B19B22A426F4AD9D001746FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19B22A526F4AD9D001746FB /* Build configuration list for PBXNativeTarget "smartAngleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19B22A626F4AD9D001746FB /* Debug */,
+				B19B22A726F4AD9D001746FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19B226D26F4AD9B001746FB /* Project object */;
+}
